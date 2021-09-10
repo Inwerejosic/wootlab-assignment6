@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&family=Roboto+Condensed:ital@0;1&family=Sree+Krushnadevaraya&family=Teko:wght@300;400;500&family=Tinos:ital@0;1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*All my font-families
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Sree Krushnadevaraya', serif;
+
+    font-family: 'Teko', sans-serif;
+
+    font-family: 'Tinos', serif;
+*/
+
+.header {
+    border: 2px yellowgreen;
+    height: 400px;
+    background-image: url(../images/farm-img-5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 45px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.header h4 {
+    color: wheat;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Tinos', serif;
+    padding: 5px;
+}
+
+nav li a:hover {
+    font-family: 'Tinos', serif;
+    background-color: #ccc;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.shop-btn {
+    margin-top: 35px;
+    padding: 5px 20px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.shop-btn:hover {
+    color: magenta;
+}
+
+
+/* 24-08-2021 Class works started here */
+
+nav {
+    height: 55px;
+    color: red;
+    cursor: pointer;
+    background-color: wheat;
+    margin: auto;
+}
+
+ul {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    font-size: 18px;
+    padding: 20px 35px;
+    list-style-type: none;
+}
+
+
+/* Assignment 5{24-08-2021} */
+
+.about-us {
+    text-align: center;
+    width: 95%;
+    background-color: #afddc6;
+    margin: auto;
+    text-align: center;
+}
+
+.about-us .abt-container h2 {
+    border-bottom: 2px solid rebeccapurple;
+    color: #001;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us-img img {
+    align-items: center;
+    padding: auto;
+    width: 250px;
+    object-fit: scale-down;
+    border-radius: 25px;
+}
+
+.section-containt p {
+    padding: auto;
+    padding-left: 25px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.real {
+    background-color: #ccc;
+    font-family: 'Tinos', serif;
+    margin: 8px;
+    padding: 9px;
+    border-radius: 8px;
+}
+
+.real h3,
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+.real li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.real ul {
+    display: flexbox;
+    justify-content: center;
+}
+
+.real li a:hover {
+    color: goldenrod;
+}
+
+
+/*Main Section of the site*/
+
+.hd {
+    
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-1{
+    color: wheat;
+    width: 30%;
+    height:350px;
+    /*border: 2px solid green;*/
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #ccc;
+    background-color: #010;
+}
+.main-2{
+    color: wheat;
+    width: 30%;
+    height:350px;
+    /*border: 2px solid brown;*/
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #ccc;
+    background-color: #010;
+}
+.main-3{
+    color: wheat;
+    width: 30%;
+    height:350px;
+    /*border: 2px solid yellow;*/
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #ccc;
+    background-color: #010;
+
+}
+.main-1 .image-container{
+    background-image: url(../images/farm-img-1.jpg);
+    background-size: cover;
+    height: 50%
+}
+.main-2 .image-container{
+    background-image: url(../images/farm-img-4.jpg);
+    background-size: cover;
+    height: 50%
+}
+.main-3 .image-container{
+    background-image: url(../images/farm-img-3.jpg);
+    background-size: cover;
+    height: 50%
+}
+.btn{
+    padding: 5px;
+    margin-bottom: 5px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: cyan;
+    color: brown;
+    font-weight: bold;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #001;
+    cursor: pointer;
+}
+
